@@ -1,5 +1,3 @@
-# pruebaAPIRESTEstudiantes
-
 Sobre la API REST de NET CORE
 =============================
 
