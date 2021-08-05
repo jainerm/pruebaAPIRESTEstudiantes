@@ -17,6 +17,8 @@ Para la instalacion
   
   ![image](https://user-images.githubusercontent.com/45112986/128291217-fd509b6c-e517-42e9-94b2-6a8d1952fb58.png)
 
-  
+5. Ejecute la aplicación de forma normal para que se cargue el API REST (Primero) y enseguida la aplicación.
+
+
   
  
