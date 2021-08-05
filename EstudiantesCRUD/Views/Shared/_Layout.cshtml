@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EstudiantesCRUD</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <!-- Header Start -->
+    <div class="header home">
+        <div class="container-fluid">
+            <div class="header-top row align-items-center">
+                <div class="col-lg-7">
+                    <div class="brand">
+                        <a href="index.html">
+                            <h1>API-Estudiantes</h1>
+                            <!-- <img src="../img/portfolio-1.jpg" alt="Logo"> -->
+                        </a>
+                    </div>
+                    <div class="navbar navbar-expand-lg bg-light navbar-light">
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav nav-item nav-link">
+                                <li class="btn">@Html.ActionLink("Inicio", "Index", "Home")</li>
+                                <li class="btn">@Html.ActionLink("Estudiantes", "Estudiantes", "Home")</li>
+                                <li class="btn">@Html.ActionLink("Cursos", "Cursos", "Home")</li>
+                                <li class="btn">@Html.ActionLink("Direcciones", "Direcciones", "Home")</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="topbar">
+                        <div class="topbar-col">
+                            <a href="tel:+012 345 67890"><i class="fa fa-phone-alt"></i>+324 400 62 04</a>
+                        </div>
+                        <div class="topbar-col">
+                            <a href="mailto:jainerm6705@gmail.com"><i class="fa fa-envelope"></i>jainerm6705@gmail.com</a>
+                        </div>
+                        <div class="topbar-col">
+                            <div class="topbar-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="topbar-col">
+                            <a href="#"><i class="fa fa-person"></i>@ViewBag.logueado</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    <br /><br />
+    <footer>
+        <hr />
+        <div align="left">
+            <span class="bigger-120">
+                @*@Messages.Layout_Copyright*@
+                <strong>Copyright &nbsp; EstudiantesCRUD - &copy; @DateTime.Now.Year &nbsp; &nbsp;Powered By&nbsp;&nbsp;</strong>
+            </span>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <!-- <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
