@@ -24,6 +24,8 @@ Ejecucion de la aplicacion
 
 ![image](https://user-images.githubusercontent.com/45112986/128291414-7cca59c1-e5b1-44d3-84bc-7eb277a0d5f4.png)
 
+Ingrese los datos del estudiante para que el servicio API lo envie a la base de datos y haga el CRUD.
 
-  
+
+ 
  
