@@ -19,6 +19,11 @@ Para la instalacion
 
 5. Ejecute la aplicación de forma normal para que se cargue el API REST (Primero) y enseguida la aplicación.
 
+Ejecucion de la aplicacion
+==========================
+
+![image](https://user-images.githubusercontent.com/45112986/128291414-7cca59c1-e5b1-44d3-84bc-7eb277a0d5f4.png)
+
 
   
  
